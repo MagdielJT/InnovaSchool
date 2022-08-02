@@ -1,0 +1,29 @@
+<mapreducescript scriptid="customscript_tkio_estadocuenta_mr">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>Estados de Cuenta TKIO</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <scriptfile>[/SuiteScripts/DesarrolloTekiio/estadodecuenta.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_estadocuenta_implement">
+      <buffersize>1</buffersize>
+      <concurrencylimit>1</concurrencylimit>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <queueallstagesatonce>T</queueallstagesatonce>
+      <runasrole>ADMINISTRATOR</runasrole>
+      <status>TESTING</status>
+      <title>Estados de Cuenta TKIO</title>
+      <yieldaftermins>60</yieldaftermins>
+      <recurrence>
+        <everyweekday>
+          <repeat></repeat>
+          <startdate>2022-06-02</startdate>
+          <starttime>05:00:00Z</starttime>
+        </everyweekday>
+      </recurrence>
+    </scriptdeployment>
+  </scriptdeployments>
+</mapreducescript>

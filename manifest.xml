@@ -1,0 +1,63 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>InnovaSchool</projectname>
+  <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="false">MULTILANGUAGE</feature>
+      <feature required="false">CUSTOMSEGMENTS</feature>
+      <feature required="false">EXTREMELIST</feature>
+      <feature required="false">MAILMERGE</feature>
+      <feature required="true">CUSTOMRECORDS</feature>
+      <feature required="false">CREATESUITEBUNDLES</feature>
+      <feature required="true">SERVERSIDESCRIPTING</feature>
+      <feature required="false">SUBSIDIARIES</feature>
+      <feature required="false">CRM</feature>
+      <feature required="false">DEPARTMENTS</feature>
+      <feature required="false">PERIODENDJOURNALENTRIES</feature>
+      <feature required="false">EXPREPORTS</feature>
+      <feature required="false">ADVRECEIVING</feature>
+      <feature required="false">MULTILOCINVT</feature>
+      <feature required="false">INVENTORY</feature>
+      <feature required="false">CUSTOMTRANSACTIONS</feature>
+      <feature required="false">RECEIVABLES</feature>
+      <feature required="false">ACCOUNTING</feature>
+      <feature required="false">PAYABLES</feature>
+    </features>
+    <objects>
+      <object>customrecord_efx_db_txt_detalle</object>
+      <object>custbody_tkio_ligadepagotxtdetalle</object>
+      <object>customrecord_efx_des_descuentos.custrecord_efx_des_tipo_2</object>
+      <object>customrecord_mx_sat_cfdi_usage</object>
+      <object>customrecord_efx_des_items_full.custrecord_efx_nombre_descuento</object>
+      <object>customrecord_efx_des_descuentos.custrecord_efx_panel_valor</object>
+      <object>custbody_edoc_generated_pdf</object>
+      <object>customrecord_efx_des_descuentos.custrecord_efx_id_item</object>
+      <object>customrecord_efx_des_items_full.custrecord_efx_des_ref_type</object>
+      <object>custbody_efx_fe_pdf_file_ns</object>
+      <object>customrecord_efx_des_descuentos.custrecord_efx_priority_level</object>
+      <object>custbody_efx_cuenta_abono</object>
+      <object>custentity_efx_ip_eid</object>
+      <object>customrecord_efx_fe_formapago</object>
+      <object>customrecord_efx_des_descuentos.custrecord_efx_cb_dis_item</object>
+      <object>custbody_efx_alumno</object>
+      <object>customrecord_efx_des_descuentos</object>
+      <object>custbody_efx_fe_formapago</object>
+      <object>custbody_efx_fe_metodopago</object>
+      <object>custentity_mx_rfc</object>
+      <object>custbody_effx_uuid_factura_prov</object>
+      <object>custbody_efx_fe_xml_file</object>
+      <object>customrecord_efx_des_items_full</object>
+      <object>custbody_psg_ei_certified_edoc</object>
+      <object>custbody_efx_fe_xml_file_ns</object>
+      <object>customrecord_efx_fe_metodospago</object>
+      <object>customrecord_efx_des_descuentos.custrecord_efx_des_activo</object>
+      <object>custbody_mx_cfdi_uuid</object>
+      <object>customrecord_efx_des_items_full.custrecord_efx_des_id_item_control</object>
+      <object>custbody_ref_banc</object>
+      <object>customrecord_efx_des_descuentos.custrecord_efx_des_cliente</object>
+      <object>customrecord_efx_des_descuentos.custrecord_efx_des_referidos</object>
+      <object>custbody_efx_fe_uuid</object>
+      <object>custentity_efx_mx_cfdi_usage</object>
+    </objects>
+  </dependencies>
+</manifest>
